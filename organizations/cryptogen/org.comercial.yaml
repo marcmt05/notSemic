@@ -1,0 +1,10 @@
+PeerOrgs:
+  - Name: Comercial
+    Domain: org.comercial.com
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+      SANS:
+        - localhost
+    Users:
+      Count: 1
